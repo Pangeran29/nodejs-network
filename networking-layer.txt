@@ -1,0 +1,14 @@
+1. physical layer (signal and binary transmission)
+how data moved in cable is when theres is light in it it means 1 and if not it's 0. there is a time frame to check how is there any light or not. 
+
+2. datalink layer (frames and mac address)
+extracting the bits from physical layer into frames. here they are extracting the data,destination Mac adress, source Mac Address. Configure where this frames need to be deliver (destination) and send it directly by using physical layer
+
+3. network layer (packets, ip address, path determination)
+this where internet come. router and ip address (prev chap)
+
+4. transport layer (segments, end2end conn - TCP/UDP)
+make sure packet arive safely
+
+5. application layer (data)
+http, ssh, telnet, https

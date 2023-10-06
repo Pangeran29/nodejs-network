@@ -1,0 +1,25 @@
+in the good old day there was just a cumputer with cpu, ram, rom, etc but it does not have network or network card. it that time computer cannot share data to another computer without helped of falshdisk or floppy disk.
+
+transformation of network:
+--------------------------
+1. the first network is using bunch of computers with network card that conected to switch with ethernet cable
+
+ethernert card need to connect to a switch and need to log into the switch to configure how the flow of the data. computeer need a network card to accept ethernet cable 
+
+  each network card has their own unique address. this address is called MAC address. MAC address is represented by hexadecimal (aa:aa:aa:aa:aa:aa -> each hexadicimal is 4 bits so in total MAC address has 48 bits)
+
+when tranfering data to another computer, your computer will send a package(packet) that contains the source (sender MAC address), destination (receiver MAC address), and data (in binary) to the switch. The switch than configure the receiver of the packet and send it. then the receiver receive the packet from the networking card
+
+this network is really good, more efficience and fast. more than using usb or floppy disk. but what if a network that only consist of two computer from building A need to tranfer data to another computer that not in one network with computers in building A??this where ROUTER coming. 
+
+  Router is placed on top of switch (or a router in current situation swith and router come along) and connected to another switch also via ethernet cable. router work with IP address but still understand MAC address
+
+so this is how actually internet work. there are many cables around the world that connecting our computer. by default, our device it self not know how connect to the internet so we use ISP provider to allow us use internet. this ISP allow us to use sim card or router to connect to the internet
+
+by default our connection to global internet is managed by ISP. the way computer or smart devices connected to ISP is by wire (ethernet cable) or wireless (waves, electricity).
+
+  an router has its own unique ip address, and router assign a new unique IP address to each device that connected to it's router.
+
+
+IP address
+----------
